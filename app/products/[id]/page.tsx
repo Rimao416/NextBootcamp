@@ -1,3 +1,14 @@
+type Props = {
+  params: Promise<{ id: string }>;
+};
+
+export const generateMetadata = async ({ params }: Props) => {
+  const productId = await params;
+  return {
+    title: `Product ${productId.id}`,
+  };
+};
+
 export default async function ProductDefails({
   params,
 }: {
