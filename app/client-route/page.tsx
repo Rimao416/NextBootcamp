@@ -1,3 +1,6 @@
+import { clientSideFunction } from "../utils/client-utils";
+
 export default function ClientRoutePage() {
-  return <h1>Client Route</h1>;
+    const result=clientSideFunction();
+  return <h1>Client Route {result}</h1>;
 }
