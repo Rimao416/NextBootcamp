@@ -1,1 +1,1 @@
-# Fetchind Data Client and Server
+# Sequential and Parallel Data
